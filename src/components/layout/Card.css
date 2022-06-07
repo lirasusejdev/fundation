@@ -16,3 +16,8 @@
   color: black;
   padding: 20px;
 }
+.Card .Modal {
+  background-color: #fff;
+  color: rgb(220, 90, 30);
+  padding: 10px;
+}
