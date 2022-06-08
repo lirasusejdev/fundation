@@ -1,7 +1,7 @@
 import './Card.css'
 import React from 'react'
 
-export default props => {
+const Card = props => {
   return (
     <div className="Card">
       <div className="Title">{props.titulo}</div>
@@ -10,3 +10,5 @@ export default props => {
     </div>
   )
 }
+
+export default Card

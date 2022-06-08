@@ -1,13 +1,12 @@
 import React from 'react'
 import ReactJoyride from 'react-joyride'
-import Modal from './components/basicos/Modal'
 import Card from './components/layout/Card'
 import Primeiro from './components/basicos/Primeiro'
 import ComParametros from './components/basicos/ComParametros'
 import Fragmento from './components/basicos/Fragmento'
-import { Button } from '@grupoboticario/flora-react'
+import { Button, Modal } from '@grupoboticario/flora-react'
 
-export default props => {
+const App = props => {
   return (
     <div id="app">
       <h1>Onboarding Flora</h1>
@@ -29,3 +28,4 @@ export default props => {
     </div>
   )
 }
+export default App
